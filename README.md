@@ -8,6 +8,7 @@ This project takes inspiration from Austin Henley's [Teeny Tiny Compiler] (https
 - **Parser (Tokenizer)**: Constructs an Abstract Syntax Tree (AST) that represents the structure of the of the code, from the lexer. The parser verifies whether the sequences of tokens conform to the syntax rules.
 - **Emitter**: Converts the AST into C code
 
+![](https://austinhenley.com/blog/images/compilersteps.png)
 
 # Why Build a Compiler?
 This project was built to:
